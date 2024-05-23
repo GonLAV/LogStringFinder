@@ -13,15 +13,19 @@ Run the script:
 python script.py
 
 Pre-condition:
-Create Path : /path/App/logs
+PYTHON INSTALLED
+Create Path : /path/App/logs 
+in folder logs create 2 Files
+log1.txt  text inside                                           
+log2.txt 
 
 Script Example:
 
-Enter the strings to search for, separated by commas: error, warning
+Enter the strings to search for, separated by commas: error, Fatal
 
 Enter the path to the folder containing the log files: /path/App/logs
 
 File Name                     String                       Count
-log1.txt                      error                        5
-log2.txt                      warning                      3
-perl
+A.log                          error                        2
+A.log                          Fatal                         3
+ B.txt                         error                         1
