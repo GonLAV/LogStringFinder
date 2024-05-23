@@ -16,8 +16,14 @@ Pre-condition:
 PYTHON INSTALLED
 Create Path : /path/App/logs 
 in folder logs create 2 Files
-log1.txt  text inside                                           
-log2.txt 
+A.log text inside:  
+Error: Something went wrong
+Fatal: System failure
+Error: Another Fatal and another fatal
+                                       
+b.txt 
+Error: stop now
+Error my friend
 
 Script Example:
 
