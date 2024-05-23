@@ -1,7 +1,7 @@
 from file_search import scan_folder
 from report_generator import generate_html_report
 
-# Main function to interact with the user and generate the report
+# Main function  is to interact with the user and generate the  HTML report
 def main():
     # Get the search strings from the user, separated by commas, and remove any extra whitespace
     search_strings = [s.strip() for s in input("Enter the strings to search for, separated by commas: ").split(',')]
